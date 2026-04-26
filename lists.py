@@ -29,3 +29,35 @@ print("List of Operations:", dir(servers)) # dir is used to get what kind of the
 servers.append(False)
 print(servers)
 
+#Multi Indexing
+# servers[-1][0]
+
+# extend
+servers.extend(["a", "b"]) # shows as seperate elements not combined like append
+print(servers.index(True)) # gives the index number of the value
+servers.insert(0, 12) # Inserts the objects
+print(servers)
+
+servers.remove(True) # removes the first occurence
+
+servers.reverse() # Gives reverse of the data 
+servers[::-1] # this is the reverse of the list, this also we can use.
+
+servers.sort() #Sorts the data in the order, you will lose the original list once sort is done.
+
+sorted(servers) #gives the new list in the ascending order
+
+servers_1 = servers.copy()
+
+"""
+1. Reverse alist
+2. sort vs sorted
+3. Integer division vs floor division
+4. shallow copy( inplace operation)
+5. multi indexing
+6. append vs extend
+7. mutable vs immutable
+8. dir()
+
+"""
+
