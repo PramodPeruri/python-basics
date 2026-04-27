@@ -6,6 +6,7 @@ print(type(servers), servers[3] )  # using index to print particular value
 
 # Slicing (we mention start_index:end_index) here end_index is not inculsive
 simple_slice = servers[1:4]
+simple_slice = servers[1:] # Takes values from index 1 till end 
 #Step Size example 1 is default
 step = servers[0:4:2] # Step size 1, 1+2
 print(simple_slice)
