@@ -46,7 +46,7 @@ servers[::-1] # this is the reverse of the list, this also we can use.
 
 servers.sort() #Sorts the data in the order, you will lose the original list once sort is done.
 
-sorted(servers) #gives the new list in the ascending order
+sorted(servers) #gives the new list in the ascending order.
 
 servers_1 = servers.copy()
 
