@@ -1,5 +1,6 @@
 #Python is case sensitive a and A are not same
 environment = input("Enter your environment: \n")
+print(type(environment))
 change_ticket = False
 
 environment = environment.casefold()

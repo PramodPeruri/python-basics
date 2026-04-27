@@ -11,7 +11,7 @@ sample['a'] = 10
 print(sample)
 
 # Keys in dictonaries once defined can't be changed
-# Hence they should be of immutable datatype
+# Hence they should be of immutable datatype eg tuple, string
 
 sample = {("a", "b"): 1, 'b' : 2}
 print(sample)
