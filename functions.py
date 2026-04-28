@@ -29,10 +29,10 @@ def calc(a, b, operation):
     if operation == "sub":
         return a - b
     
-values = input("Enter 2 numbers: ")
-operation = input("Enter operation to perform (add, sub): ")
-print(values)
-print(map(int, values))
-# res = calc(a, b, operation)
+# values = map(input("Enter 2 numbers: "),split())
+a, b = tuple(map(int, input("Enter 2 numbers: ").split()))
+operation = input("Enter operation to perform (add, sub, mult, div): ")
+res = calc(a, b, operation)
+print(res)
 
 
