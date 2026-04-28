@@ -28,6 +28,10 @@ def calc(a, b, operation):
         return a + b
     if operation == "sub":
         return a - b
+    if operation == "mult":
+        return a * b
+    if operation == "div":
+        return a % b
     
 # values = map(input("Enter 2 numbers: "),split())
 a, b = tuple(map(int, input("Enter 2 numbers: ").split()))
